@@ -27,8 +27,9 @@
 			 if($result->num_rows > 0){
 			 	while ($row = $result->fetch_object()){
 					if($row->pass == $parametro1){
-						session_start();
 						/*
+						session_start();
+						
 						$_SESSION['id'] = $row->id;
 						$_SESSION['usuario'] = $row->usuario;
 						$_SESSION['contraseña'] = $row->usuario;
