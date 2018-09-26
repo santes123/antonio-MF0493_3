@@ -33,6 +33,9 @@
 
 			<legend id="formulario">Login</legend>
 			<div>
+				<label>IP : </label><input type="text" size="50" maxlength="50" value="192.168.0.94" style="width: 200px;"><br><br>
+			</div>
+			<div>
 				<label>Usuario : </label><input type="text" name="nombre" size="50" maxlength="50" style="width: 200px;" autofocus="autofocus"><br><br>
 			</div>
 			<div>
